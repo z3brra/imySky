@@ -1,0 +1,32 @@
+https://api.openweathermap.org/data/2.5/weather?q=Villeneuve-d%27Ascq,fr&appid=8fdfebadbe7988aaf780c1f3cea45a6b&units=metric&lang=fr
+
+https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/countries-codes/records?limit=20&refine=iso2_code%3AFR
+
+weather : [
+    {
+        id : pour le logo
+        main : 
+        description : text à utiliser
+    }
+]
+
+main : [
+    {
+        temp : température
+        feels_like : ressenti
+        humidity: taux d'humidité
+    }
+]
+
+wind : {
+    speed : vitesse du vent en m/s
+}
+
+dt : Heure de l'information
+
+sys : {
+    country : code iso 2
+    sunrise : heure du levé du soleil
+    sunset : heure du couché du soleil
+}
+
